@@ -71,9 +71,11 @@ background: url(../images/blue.png) ;
     background-color: #333;
     color: white;
     padding: 16px;
-    font-size: 125%;
+    font-size: 100%;
     border: none;
     cursor: pointer;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-left: 0;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -95,7 +97,7 @@ background: url(../images/blue.png) ;
 /* Links inside the dropdown */
 .dropdown-content a {
     color: rgb(192, 1, 252);
-    padding: 12px 16px;
+    padding: 7%;
     text-decoration: none;
     display: block;
 }
@@ -112,6 +114,12 @@ background: url(../images/blue.png) ;
 .dropdown:hover .dropbtn {
     background-color: #333;
     color: rgb(0, 239, 255)
+}
+.bookmark {
+	color: black;
+	z-index: 11;
+	position: relative;
+	padding-top: 12%;
 }
  img {
  	width: 100%;
@@ -148,3 +156,24 @@ background: url(../images/blue.png) ;
 hr {
 	color: black;
 }
+/*Past Productions*/
+.line {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.first {
+	display: inline;
+	width: 30%;
+	margin: 0;
+	z-index: 12;
+	padding: 1%;
+}
+
+
+
+
+
+
+
+
