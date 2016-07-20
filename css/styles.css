@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Sacramento|Open+Sans+Condensed:300);
+
+body{
+background: url(../images/blue.png) ; 
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0;
+  margin-top: 0;
+ }
+
+ #content {
+ 	background-color: rgba(225,225,225,0.8);
+	max-width: 800px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 0%;
+	padding-left: 1%;
+	padding-right: 1%;
+	overflow: auto;
+	margin: auto;
+	z-index: 9;
+
+ }
+ h1{
+ 	font-family: 'Sacramento', cursive;
+ 	padding-top: 2em;
+ 	padding-left: 2%;
+ 	font-size: 4em;
+ }
+ nav {
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	margin: 0;
+	top: 0;
+	width: 100%;
+	background-color: #333; 
+	padding-top: 2%;
+	padding-bottom: 1%;
+	z-index: 10;
+ }
+ ul {
+ 	background-color: #333;
+ 	word-spacing: 1em;
+ }
+ li {
+ 	display: inline;
+ 	color: white;
+ 	word-spacing: 0em;
+ 	font-size: 125%;
+ }
+ a{
+ 	color: white;
+ }
+ li a:link {
+ 	text-decoration: none;
+ 	color: white;
+
+ }
+ li a:hover {
+ 	color: rgb(0, 239, 255);
+ }
+ .active {
+ 	color: rgb(192, 1, 252);
+ }
+ /* Dropdown Button */
+.dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 16px;
+    font-size: 125%;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: rgb(192, 1, 252);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #333;
+    color: rgb(0, 239, 255)
+}
+ img {
+ 	width: 100%;
+ 	height: auto;
+ }
+ table{
+ 	width: 50%;
+ }
+ th, td{
+ 	padding-left: 4%;
+ 	padding-top: 2%;
+ }
+ th {
+ 	text-align: left;
+ }
+ .column{
+
+ }
+.headshot {
+	border-radius: 100%;
+	width: 40%;
+	float: left;
+	clear: both;
+}
+.blurb {
+	display: inline-block;
+	float: right;
+	width: 50%;
+	padding-left: 5%;
+}
+.font{
+	font-family: 'Sacramento', cursive;
+}
+hr {
+	color: black;
+}
