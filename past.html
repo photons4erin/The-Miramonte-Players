@@ -10,33 +10,64 @@
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="current.html">Current Productions</a></li>
-			<li><a class="active" href="past.html">Past Productions</a></li>
+			<li>
+				<div class="dropdown">
+				  <button class="dropbtn"><a class="active" href="past.html">Past Productions</a></button>
+				  <div class="dropdown-content">
+				    <a href="past.html">2016-2013</a>
+				    <a href="past.html">2012-2009</a>
+				    <a href="past.html">2008-2005</a>
+				    <a href="past.html">2004-2000</a>
+				  </div>
+				</div>
+			</li>
 			<li><a href="staff.html">Staff</a></li>
 			<li>
 				<div class="dropdown">
 				  <button class="dropbtn"><a href="students.html">Students</a></button>
 				  <div class="dropdown-content">
-				    <a href="students.html">Link 1</a>
-				    <a href="students.html">Link 2</a>
-				    <a href="students.html">Link 3</a>
+				    <a href="students.html#newstudents">New Students</a>
+				    <a href="students.html#alumni">Alumni</a>
+				    <a href="students.html#awards">Awards</a>
 				  </div>
 				</div>
 			</li>
-			<li><a href="additional.html">Additional</a></li>
+			<li><a href="additional.html">Additional Performances</a></li>
 		</ul>
 	</nav>
 	<div id="content">
 		<h1>Past Productions</h1>
 		<div class="line">
-			<img class="first" src="images/Tempest.jpg">
-			<img class="first" src="images/LegallyBlonde.jpg">
-			<img class="first" src="images/Gatsby.jpg">
+			<div class="imgwrap">
+				<a href="tempest.html">
+					<p class="picture-text" id="tempest">The Tempest</p>
+					<img class="first" src="images/Tempest.jpg" alt="polaroid">
+				</a>
+			</div>
+			<div class="imgwrap">
+				<a href="legally-blonde.html">
+					<p class="picture-text" id="legallyblonde">Legally Blonde</p>
+					<img class="first" src="images/LegallyBlonde.jpg">
+				</a>
+			</div>
+			<div class="imgwrap">
+			<a href="gatsby.html">
+				<p class="picture-text" id="gatsby">The Great Gatsby</p>
+				<img class="first" src="images/Gatsby.jpg">
+			</a>
+			</div>
 		</div>
 		<br>
 		<div class="line">
-			<img class="first" src="images/TMLMTBGB.jpg">
-			<img class="first" src="images/SpellingBee.jpg">
+			<a href="tmlmtbgb.html">
+				<img class="first" src="images/TMLMTBGB.jpg">
+			</a>
+			<a href="spellingbee.html">
+				<img class="first" src="images/SpellingBee.jpg">
+			</a>
+			<a href="arabian-nights.html">
 			<img class="first" src="images/ArabianNights.jpg">
+			</a>
 		</div>
 	</div>
 </body>

@@ -40,7 +40,7 @@ background: url(../images/blue.png) ;
 	background-color: #333; 
 	padding-top: 2%;
 	padding-bottom: 1%;
-	z-index: 10;
+	z-index: 12;
  }
  ul {
  	background-color: #333;
@@ -119,7 +119,7 @@ background: url(../images/blue.png) ;
 	color: black;
 	z-index: 11;
 	position: relative;
-	padding-top: 12%;
+	padding-top: 15%;
 }
  img {
  	width: 100%;
@@ -154,7 +154,10 @@ background: url(../images/blue.png) ;
 	font-family: 'Sacramento', cursive;
 }
 hr {
-	color: black;
+	color: #333;
+	background-color: #333;
+	height: 1px;
+	border: 0;
 }
 /*Past Productions*/
 .line {
@@ -168,11 +171,55 @@ hr {
 	margin: 0;
 	z-index: 12;
 	padding: 1%;
+	padding: relative;
+}
+.line img:hover{
+	opacity: 0.5;
+	z-index: 9;
+}
+ .picture-text {
+ 	position: absolute;
+ 	visibility: hidden;
+ 	opacity: 0;
+ 	display: inline;
+ 	margin: 0;
+ 	padding-left: 4%;
+ 	padding-top: 2%;
+ 	color: black;
+ 	font-size: 2em;
+ 	z-index: 8;
+ 	text-align: center;
+
+
+  }
+
+.imgwrap {
+	display: inline;
 }
 
 
-
-
+ .imgwrap:hover .picture-text {
+ 	visibility: visible;
+ 	opacity: 1;
+ 	width: 50px;
+ 	z-index: 8;
+ 
+ }
+/* #tempest{
+ 	text-align: center;
+ 	z-index: 9;
+ }
+#legallyblonde{
+	padding-top: 5%;
+ 	padding-left: 4%;
+ 	z-index: 9;
+ 	font-size: 2em;
+ 	text-align: center;
+ }
+ #gatsby{
+ 	font-size: 2em;
+ }
+*/
 
 
 
